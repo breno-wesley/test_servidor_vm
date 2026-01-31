@@ -62,7 +62,7 @@ export function createAdminPage(): HTMLElement {
                 <td>${user.name}</td>
                 <td>${user.email}</td>
                 <td>${user.is_admin ? '⚙️ Admin' : '👤 Usuário'}</td>
-                <td>${new Date(user.created_at).toLocaleDateString('pt-BR')}</td>
+                <td>${user.created_at ? new Date(user.created_at).toLocaleDateString('pt-BR') : 'N/A'}</td>
               </tr>
             `).join('')}
           </tbody>

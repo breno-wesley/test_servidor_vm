@@ -1,10 +1,11 @@
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = '/api';
 
 export interface User {
   id: number;
   email: string;
   name: string;
   is_admin: number;
+  created_at?: string;
 }
 
 export interface Product {

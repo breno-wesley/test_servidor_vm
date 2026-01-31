@@ -1,0 +1,132 @@
+# ============================================
+# Node.js
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# Build outputs
+# ============================================
+dist/
+build/
+*.tsbuildinfo
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+pharmacy.db
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# PM2
+# ============================================
+.pm2/
+pm2.log
+
+# ============================================
+# Environment variables
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Temporary files
+# ============================================
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# ============================================
+# Coverage and testing
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# MANTER - Documentação e Guias
+# ============================================
+# Todos os arquivos .md são mantidos
+!README.md
+!*.md
+!DEPLOY_GUIDE.md
+!DEPLOY_UBUNTU_VM.md
+!QUICK_START_DEPLOY.md
+!QUICK_START_UBUNTU.md
+!STATUS.md
+!MIGRATION_SUCCESS.md
+!INSTALL_FIX.md
+
+# ============================================
+# MANTER - Scripts de Deploy
+# ============================================
+!deploy.ps1
+!deploy-ubuntu.sh
+!ecosystem.config.js
+!nginx.conf
+
+# ============================================
+# MANTER - Configurações do Projeto
+# ============================================
+!package.json
+!package-lock.json
+!tsconfig.json
+!nodemon.json
+!vite.config.ts
+
+# ============================================
+# MANTER - Código Fonte
+# ============================================
+!src/
+!backend/src/
+!frontend/src/
+!*.ts
+!*.js
+!*.html
+!*.css
